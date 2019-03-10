@@ -1,7 +1,12 @@
 //  with "if ... else" operator.
 var day = prompt('Enter day of week', '');
 
-if(day == 'Monday' || day == 'Tuesday' || day == 'Wednesday' || day == 'Thursday' || day == 'Friday') {
+if(
+    day == 'Monday' ||
+    day == 'Tuesday' ||
+    day == 'Wednesday' ||
+    day == 'Thursday' ||
+     day == 'Friday') {
     alert('Working day');
 } else if(day == 'Saturday' || day == 'Sunday') {
     alert('Weekend');
